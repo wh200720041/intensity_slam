@@ -1,9 +1,8 @@
 # Intensity-SLAM 
 ## Intensity-Assisted Simultaneous Localization And Mapping
 
+This is an implementation of paper "Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment"
 [Wang Han](http://wanghan.pro), Nanyang Technological University, Singapore
-
-
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
@@ -52,7 +51,16 @@ And this may take a few minutes to unzip the file
     roslaunch intensity_slam intensity_slam.launch
 ```
 
-
 ## 4.Acknowledgements
 Thanks for [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) and LOAM(J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time) and [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED).
 
+## 5. Citation
+If you use this work for your research, you may want to cite
+```
+@article{wang2021intensity,
+  title={Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment},
+  author={Wang, Han and Wang, Chen and Xie, Lihua},
+  journal={arXiv preprint arXiv:2102.03798},
+  year={2021}
+}
+```
