@@ -1,7 +1,8 @@
 # Intensity-SLAM 
 ## Intensity-Assisted Simultaneous Localization And Mapping
 
-This is an implementation of paper "Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment"
+This is an implementation of paper "Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment" [paper](https://arxiv.org/pdf/2102.03798.pdf)
+
 [Wang Han](http://wanghan.pro), Nanyang Technological University, Singapore
 
 ## 1. Prerequisites
@@ -33,7 +34,7 @@ Alternatively, you may remove the hector trajectory server node if trajectory vi
     source ~/catkin_ws/devel/setup.bash
 ```
 ### 2.2 Download test rosbag
-Download [KITTI sequence 05](https://drive.google.com/open?id=18ilF7GZDg2tmT6sD5pd1RjqO0XJLn9Mv) or [KITTI sequence 07](https://drive.google.com/open?id=1VpoKm7f4es4ISQ-psp4CV3iylcA4eu0-)
+Download [KITTI sequence 05](https://drive.google.com/file/d/1eyO0Io3lX2z-yYsfGHawMKZa5Z0uYJ0W/view?usp=sharing) or [KITTI sequence 07](https://drive.google.com/file/d/1_qUfwUw88rEKitUpt1kjswv7Cv4GPs0b/view?usp=sharing)
 
 Unzip compressed file 2011_09_30_0018.zip. If your system does not have unzip. please install unzip by 
 ```
