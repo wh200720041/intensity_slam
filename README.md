@@ -59,9 +59,13 @@ Thanks for [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) and LOAM(J.
 If you use this work for your research, you may want to cite
 ```
 @article{wang2021intensity,
-  title={Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment},
-  author={Wang, Han and Wang, Chen and Xie, Lihua},
-  journal={arXiv preprint arXiv:2102.03798},
-  year={2021}
+  author={H. {Wang} and C. {Wang} and L. {Xie}},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment}, 
+  year={2021},
+  volume={6},
+  number={2},
+  pages={1715-1721},
+  doi={10.1109/LRA.2021.3059567}
 }
 ```
