@@ -7,9 +7,9 @@ This is an implementation of paper "Intensity-SLAM: Intensity Assisted Localizat
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
-Ubuntu 64-bit 18.04.
+Ubuntu 64-bit 20.04.
 
-ROS Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
+ROS Noetic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 
 ### 1.2. **Ceres Solver**
 Follow [Ceres Installation](http://ceres-solver.org/installation.html).
@@ -20,7 +20,7 @@ Follow [PCL Installation](http://www.pointclouds.org/downloads/linux.html).
 ### 1.4. **Trajectory visualization**
 For visualization purpose, this package uses hector trajectory sever, you may install the package by 
 ```
-sudo apt-get install ros-melodic-hector-trajectory-server
+sudo apt-get install ros-noetic-hector-trajectory-server
 ```
 Alternatively, you may remove the hector trajectory server node if trajectory visualization is not needed
 
